@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aquamarine;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+
+  
+}
+.register{
+    margin: auto;
+    background: white;
+    max-width: 700px;
+   
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid orange;
+}
+input[type=text]{
+    display: inline-block;
+    width: 100%;
+}
+input[type=email]{
+    display: inline-block;
+    width: 100%;
+}
+input[type=number]{
+    display: inline-block;
+    width: 100%;
+}
+input[type = date]{
+    width: 49%;
+     
+}
+input[type=time]{
+   
+    width:48%
+    
+}
+ .submit{
+    width: 50%;
+    margin: 30px 100px 0 150px;
+    border-radius: 6px;
+    text-align: center;
+    background-color: green;
+}
+ h2{
+    text-align: center;
+    color:orange
+ }
+ h6{
+    text-align: center;
+    color: rgb(43, 178, 178);
+ }
+

@@ -1,15 +1,12 @@
 const express = require('express');
 const path = require('path')
 const router = express.Router();
-const rootDir = require('../util/path')
+
+const successController = require('../controller/success')
 
 
 
-router.get('/success', (req, res, next) => {
-
-    res.send('<h1>FOrmSubimitedSuccessfully</h1>');
-
-});
+router.get('/success', successController.displayOnSUccess);
 
 
 
